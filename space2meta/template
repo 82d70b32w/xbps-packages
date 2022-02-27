@@ -1,0 +1,19 @@
+# Template file for 'space2meta'
+pkgname=space2meta
+version=0.2.0
+revision=1
+wrksrc=space2meta-v0.2.0
+build_style=cmake
+depends="interception-tools"
+short_desc="Turn space into meta when chorded to another key (on release)"
+maintainer="Jakub Olszewski <jakubolszewski@tuta.io>"
+license="MIT"
+homepage="https://gitlab.com/interception/linux/plugins/space2meta/-/tree/v0.2.0"
+distfiles="https://gitlab.com/interception/linux/plugins/space2meta/-/archive/v0.2.0/space2meta-v0.2.0.tar.gz"
+checksum=75712d96a91ca377bb47976725a39e751480f8f61aea902b3372310b04b4487a
+
+post_install() {
+	vdoc README.md
+	vlicense LICENSE.md
+}
+
