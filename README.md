@@ -1,6 +1,6 @@
 # XBPS Packages
 
-## Description
+## About
 
 This repository contains a collection of templates for xbps-src and Void Linux. These templates provide packaging information for software that cannot be accepted in the official voidlinux-packages repository according to the manual. The templates mainly include binary repacks for browsers and proprietary software, themes, fonts, beta or -git versions for programs.
 
